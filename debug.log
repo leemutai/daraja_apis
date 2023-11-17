@@ -101,3 +101,12 @@ INFO 2023-11-17 17:13:33,951  9680  Watching for file changes with StatReloader
 INFO 2023-11-17 17:13:33,971  8768  Watching for file changes with StatReloader
 INFO 2023-11-17 17:13:43,541  9680  254797001959 1
 INFO 2023-11-17 17:14:03,587  9680  254797001959 1
+INFO 2023-11-17 22:49:39,754  7780  Watching for file changes with StatReloader
+INFO 2023-11-17 22:50:13,711  9420  Watching for file changes with StatReloader
+INFO 2023-11-17 22:50:32,513  7780  254797001959 1
+DEBUG 2023-11-17 22:50:32,516  7780  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 22:50:34,097  7780  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 22:50:34,132  7780  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 22:50:35,531  7780  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 22:50:35,534  7780  {'MerchantRequestID': '82190-111364347-1', 'CheckoutRequestID': 'ws_CO_17112023225338570797001959', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 22:50:35,534  7780  82190-111364347-1 ws_CO_17112023225338570797001959
